@@ -1,6 +1,5 @@
-const array = [
-    {
-        name: 'Kyrgyzstan',
+const countries = {
+        Kyrgyzstan: {
         capital: "Bishkek",
         area: "199,951 sq km",
         population: "6,566,000",
@@ -346,10 +345,10 @@ const array = [
             
         ],
     },
+
             
     
-    {
-        name: 'Uzbekistan',
+    Uzbekistan: {
         capital: "Tashkent",
         area: "448,978 sq km",
         population: "34,377,000",
@@ -422,8 +421,7 @@ const array = [
             }
         ]
     },
-    {
-        name: 'Kazakhstan',
+    Kazakhstan: {
         capital: "Nur-Sultan",
         area: "2,724,900 sq km",
         population: "18,994,962",
@@ -496,8 +494,7 @@ const array = [
             }
         ]
     },
-    {
-        name: 'China',
+    China:{
         capital: "Beijing",
         area: "9,596,961 sq km",
         population: "1,444,216,107",
@@ -570,8 +567,7 @@ const array = [
             }
         ]
     },
-    {
-        name: 'Tajikistan',
+Tajikistan:{
         capital: "Dushanbe",
         area: "143,100 sq km",
         population: "9,537,600",
@@ -620,8 +616,7 @@ const array = [
             }
         ]
     },
-    {
-        name: 'Russia',
+    Russia:{
         capital: "Moscow",
         area: "17,125,191 sq km",
         population: "146,171,015",
@@ -695,7 +690,7 @@ const array = [
         ]
     },
     
-];
+};
     
 
  
